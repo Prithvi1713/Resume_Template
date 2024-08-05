@@ -1,0 +1,14 @@
+// create repository named as Resume_Template
+// add readme.md file 
+// at local machine in desktop create folder resume_template
+// open folder in vs code 
+git init
+git config --global user.name Prithvi1713 
+git config --global user.email plavate95@gmail.com
+git clone https://github.com/Prithvi1713/Resume_Template.git
+cd Resume_Template
+// create file index.html & style.css & add avtar profile image
+git add .
+git status
+git commit -m "files added successfully"
+git push origin main
